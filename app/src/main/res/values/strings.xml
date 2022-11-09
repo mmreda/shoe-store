@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Shoe Store</string>
+
+    <!--    Login-->
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login_button">LOGIN</string>
+    <string name="login_title">Login</string>
+    <string name="create_account_button">SignUp</string>
+
+    <!--    Welcome-->
+    <string name="welcome_title">Welcome</string>
+    <string name="to_shoe_store">To Shoe Store</string>
+    <string name="star_image">Star image for welcome screen</string>
+
+
+
+    <!--    Instruction-->
+    <string name="instruction_button">Go To Instruction</string>
+    <string name="instructions_title">Instructions</string>
+    <string name="info_image">Info image for instruction screen</string>
+    <string name="instructions_text">Press the button below to go to the next screen, you\'ll be able to browse the shoe list.</string>
+
+    <!--    Shoe List-->
+    <string name="shoe_list_button">Go To Shoe List</string>
+    <string name="no_shoe_list_to_display">There is no shoe list to display, to add a shoe list click on the add button.</string>
+    <string name="add_new_shoe">Add new shoe</string>
+    <string name="logout_menu_text">Logout</string>
+
+    <!--    Shoe Detail-->
+    <string name="shoe_image_description">"Image For Shoe "</string>
+    <string name="shoe_detail_name">Shoe Name</string>
+    <string name="shoe_detail_size">Shoe Size</string>
+    <string name="shoe_detail_company">Company</string>
+    <string name="shoe_detail_description">Description</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="save_button">Save</string>
+
+    <!--    Shoe Item-->
+    <string name="shoe_item_size">Shoe Size: %.1f</string>
+    <string name="shoe_item_company">Company: %s</string>
+    <string name="shoe_item_description">Description: %s</string>
+    <string name="shoe_item_image">Image for shoe item to display</string>
+
+</resources>

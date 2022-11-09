@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/InstructionScreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_screen"
+        tools:context=".screens.InstructionFragment">
+
+
+        <TextView
+            android:id="@+id/InstructionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="@string/instructions_title"
+            android:textColor="@android:color/white"
+            android:textSize="65sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.031" />
+
+        <TextView
+            android:id="@+id/InstructionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="@string/instructions_text"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/InstructionTitle"
+            app:layout_constraintStart_toStartOf="@+id/InstructionTitle"
+            app:layout_constraintTop_toBottomOf="@+id/InstructionTitle" />
+
+        <!--    Button to navigate to shoe list screen-->
+        <Button
+            android:id="@+id/ShoeListButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/input_bg"
+            android:backgroundTint="@android:color/white"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            android:text="@string/shoe_list_button"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/InstructionTitle"
+            app:layout_constraintStart_toStartOf="@+id/InstructionTitle"
+            app:layout_constraintTop_toBottomOf="@+id/InstructionText" />
+
+        <ImageView
+            android:id="@+id/InfoImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/info_image"
+            android:src="@android:drawable/ic_dialog_info"
+            app:layout_constraintBottom_toTopOf="@+id/InstructionTitle"
+            app:layout_constraintEnd_toEndOf="@+id/InstructionTitle"
+            app:layout_constraintStart_toStartOf="@+id/InstructionTitle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
