@@ -11,6 +11,8 @@
         <import type="android.view.View"/>
     </data>
 
+    <!--I use ConstraintLayout because it is more versatile
+    and easy to specify the view positions based on screen sizes.-->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/ShoeListScreen"
         android:layout_width="match_parent"

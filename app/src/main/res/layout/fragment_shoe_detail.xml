@@ -9,6 +9,8 @@
             type="com.udacity.shoestore.SharedViewModel" />
     </data>
 
+    <!--I use ConstraintLayout because it is more versatile
+    and easy to specify the view positions based on screen sizes.-->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -81,7 +83,8 @@
             app:layout_constraintBottom_toBottomOf="@+id/ShoeDetailName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/ShoeDetailName"
-            app:layout_constraintTop_toTopOf="@+id/ShoeDetailName" />
+            app:layout_constraintTop_toTopOf="@+id/ShoeDetailName"
+            tools:ignore="Autofill" />
 
         <EditText
             android:id="@+id/EditShoeSize"
@@ -94,7 +97,8 @@
             android:text="@={viewModel.shoeSize}"
             app:layout_constraintEnd_toEndOf="@+id/EditShoeName"
             app:layout_constraintStart_toStartOf="@+id/EditShoeName"
-            app:layout_constraintTop_toBottomOf="@+id/EditShoeName" />
+            app:layout_constraintTop_toBottomOf="@+id/EditShoeName"
+            tools:ignore="Autofill" />
 
         <EditText
             android:id="@+id/EditShoeCompany"
@@ -107,7 +111,8 @@
             android:text="@={viewModel.shoeCompany}"
             app:layout_constraintEnd_toEndOf="@+id/EditShoeSize"
             app:layout_constraintStart_toStartOf="@+id/EditShoeSize"
-            app:layout_constraintTop_toBottomOf="@+id/EditShoeSize" />
+            app:layout_constraintTop_toBottomOf="@+id/EditShoeSize"
+            tools:ignore="Autofill" />
 
         <EditText
             android:id="@+id/EditShoeDescription"
@@ -120,7 +125,8 @@
             android:text="@={viewModel.shoeDescription}"
             app:layout_constraintEnd_toEndOf="@+id/EditShoeCompany"
             app:layout_constraintStart_toStartOf="@+id/EditShoeCompany"
-            app:layout_constraintTop_toBottomOf="@+id/EditShoeCompany" />
+            app:layout_constraintTop_toBottomOf="@+id/EditShoeCompany"
+            tools:ignore="Autofill" />
 
         <!--         Button to cancel and navigate back to shoe list screen-->
         <Button
