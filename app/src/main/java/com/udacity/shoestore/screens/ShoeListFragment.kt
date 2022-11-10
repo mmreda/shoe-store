@@ -26,7 +26,7 @@ class ShoeListFragment : Fragment() {
         binding = DataBindingUtil.inflate(
             inflater, R.layout.fragment_shoe_list, container, false)
 
-        binding. viewModel = viewModel
+        binding.viewModel = viewModel
         binding.lifecycleOwner = viewLifecycleOwner
 
         binding.AddNewShoe.setOnClickListener{
