@@ -1,6 +1,6 @@
 # Shoe Store
 
-I created this application to present the first project in the Advanced Android Kotlin Development Nanodegree.
+I created Shoe Store Inventory App the first project in the Advanced Android Kotlin Development Nanodegree from Udacity
 
 ## Some of the Technologies and Techniques Used
 - LiveData
