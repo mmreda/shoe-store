@@ -4,10 +4,17 @@ I created Shoe Store Inventory App the first project in the Advanced Android Kot
 
 ## Some of the Technologies and Techniques Used
 - LiveData
+
 - ViewModel
+
 - Data Binding
+
+- Scroll View 
+
 - ConstraintLayout
+
 - Add View To Layout
+
 - Navigation Component
 
 ### Screenshots
